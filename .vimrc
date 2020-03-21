@@ -10,7 +10,7 @@ syntax enable           " syntax highlighting (just to be sure)
 set number              " turn on line numbering (turn off with set nonu)
 set textwidth=80        " width of text before staring new line
 set colorcolumn=+1,+41  " show where textwidth ends
-highlight ColorColumn ctermbg=8     
+hi ColorColumn ctermbg=5     
 set cursorline          " highlight current line
 set showmatch           " highlight matching [{()}]
 filetype indent on      " load filetype-specific indent files
